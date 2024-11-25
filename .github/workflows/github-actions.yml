@@ -1,6 +1,9 @@
 # .github/workflows/github-actions.yml
 name: learn-github-actions
-on: [push]
+on:
+    push:
+        branches:
+            - feature/*
 jobs:
   test-my-python-code:
     # select the os-image these jobs should run on
