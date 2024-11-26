@@ -28,6 +28,7 @@ def test_long():
 def test_complex():
     # given that complex numbers are an unordered field
     # the arithmetic mean of complex numbers is meaningless
+    # will implement later
     num_list = [2 + 3j, 3 + 4j, -32 - 2j]
     obs = mean(num_list)
     exp = NotImplemented
