@@ -3,7 +3,7 @@ from mean import *
 def test_ints():
     num_list = [1,2,3,4,5]
     obs = mean(num_list)
-    exp = 4 # should be 3
+    exp = 3 # should be 3
     assert obs == exp
 
 def test_zero():
